@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Home</title>
+	<meta name="description" content="Home"/>
+	<link rel="stylesheet" href="css/libs.min.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<!--HEADER-->
+	<header class="header container">
+		<div class="row no-gutters">
+			<div class="header-logo">
+				<a href="javascript:void(0)" class="header-logo__link">
+					<img src="img/logo.png" alt="logo">
+				</a>
+			</div>
+			<nav class="navbar-light">
+				<span class="mobile-btn-menu" onclick="openNav()">
+					<i class="fa fa-bars" aria-hidden="true"></i>
+				</span>
+				<div class="nav">
+					<ul class="navbar-nav">
+						<li class="navbar-nav__item closebtn">
+							<a href="javascript:void(0)" class="closebtn navbar-nav__link" onclick="closeNav()">&times;</a>
+						</li>
+						<li class="navbar-nav__item">
+							<a class="navbar-nav__link" href="javascript:void(0)">Home</a>
+						</li>
+						<li class="navbar-nav__item">
+							<a class="navbar-nav__link" href="javascript:void(0)">O nas</a>
+						</li>
+						<li class="navbar-nav__item">
+							<a class="navbar-nav__link" href="javascript:void(0)">Asortyment</a>
+						</li>
+						<li class="navbar-nav__item">
+							<a class="navbar-nav__link" href="javascript:void(0)">Wspolpraca</a>
+						</li>
+						<li class="navbar-nav__item">
+							<a class="navbar-nav__link" href="javascript:void(0)">Kontact</a>
+						</li>
+					</ul>
+					<div class="phone">
+						<a href="tel:+500110110">tel. 500 110 110</a>
+					</div> 
+				</div>
+			</nav>
+		</div>
+	</header>
+	
+	<!--slider-->
+	<div class="home-slider">
+		<div class="swiper-container">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide"><img src="img/fresh_homeslide.jpg" alt="home-slide"></div>
+				<div class="swiper-slide"><img src="img/fresh_homeslide.jpg" alt="home-slide"></div>
+				<div class="swiper-slide"><img src="img/fresh_homeslide.jpg" alt="home-slide"></div>
+			</div>
+		</div>
+		<div class="home-slider__slogan">
+			<h1>ŚWIEŻE RYBY</h1>
+			<p class="home-slider__text">Zobacz, co jeszcze oferujemy!</p>
+		</div>
+	</div>
+
+	<!--MENU-->
+	<main class="main">
+		<!--section-aboutus-->
+		<section class="section-aboutus">
+			<div class="row no-gutters container block-aboutus col-xl-12">
+				<div class="block-aboutus-information col-md-12 col-lg-5 col-xl-5 ">
+					<h2 class="block-aboutus-information__title">O nas</h2>
+					<p class="block-aboutus-information__text">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie egestas massa, et sollicitudin urna mattis faucibus. Praesent sagittis laoreet est, et efficitur enim lacinia id. Aenean imperdiet diam nec efficitur commodo. Morbi at purus tempus tellus tempus placerat. Sed faucibus sed elit at lacinia. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent posuere orci justo, eu fermentum quam cursus quis. Proin consequat molestie magna accumsan placerat. Nulla quis consectetur tortor. Nam viverra consectetur risus iaculis ultrices. 
+					</p>
+					<div class="block-aboutus-information__phone">
+						<a href="tel:+500110110">tel. 500 110 110</a>
+					</div>
+					<a class="block-aboutus-information__btn btn-basic" href="javascript:void(0)">HISTORIA<br> NASZEJ FIRMY</a>
+				</div>
+				<div class="block-aboutus__picture col-lg-6 col-xl-6 offset-md-0 offset-xl-1 offset-lg-1">
+					<img src="img/fresh_counter.jpg" alt="preview-fresh_counter-photo">
+					<span class="block-aboutus__title">Nasz Sklep</span>
+				</div>
+			</div>
+		</section>
+		<!--section-assortment-->
+		<section class="section-assortment">
+				<div class="row no-gutters container block-assortment-text">
+					<h2 class="block-assortment-text__title col-lg-12 col-xl-12 col-xs-12 col-sm-12">Аssortment</h2>
+					<p class="block-assortment-text__text col-lg-6 col-xl-6 col-xs-6 col-sm-6">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie egestas massa, et sollicitudin urna mattis faucibus. Praesent sagittis laoreet est, et efficitur enim lacinia id. Aenean imperdiet diam nec efficitur commodo. Morbi at purus tempus tellus tempus placerat. Sed faucibus sed elit at lacinia.
+					</p>
+				</div>
+				<div class="row no-gutters container block-assortment-offers">
+					<div class="swiper-container">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide ">
+								<div class="swiper-slide__img-block">	
+									<img src="img/fresh-product_slide1.jpg" alt="product-fish">
+								</div>
+								<div class="swiper-slide__info">
+									<div class="swiper-slide__wrap">
+										<span class="swiper-slide__title">DORADA ŚWIEŻA</span>
+										<div class="swiper-slide__price">14,99 ZŁ/KG</div>
+										<a class="btn-view" href="javascript:void(0)">ZAMÓW</a>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide ">
+								<div class="swiper-slide__img-block">	
+									<img src="img/fresh-product_slide2.jpg" alt="product-fish">
+								</div>
+								<div class="swiper-slide__info">
+									<div class="swiper-slide__wrap">
+										<span class="swiper-slide__title">DORADA ŚWIEŻA</span>
+										<div class="swiper-slide__price">14,99 ZŁ/KG</div>
+										<a class="btn-view" href="javascript:void(0)">ZAMÓW</a>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide ">
+								<div class="swiper-slide__img-block">	
+									<img src="img/fresh-product_slide3.jpg" alt="product-shrimp">
+								</div>
+								<div class="swiper-slide__info">
+									<div class="swiper-slide__wrap">
+										<span class="swiper-slide__title">DORADA ŚWIEŻA</span>
+										<div class="swiper-slide__price">14,99 ZŁ/KG</div>
+										<a class="btn-view" href="javascript:void(0)">ZAMÓW</a>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide ">
+								<div class="swiper-slide__img-block">	
+									<img src="img/fresh-product_slide4.jpg" alt="product-fish">
+								</div>
+								<div class="swiper-slide__info">
+									<div class="swiper-slide__wrap">
+										<span class="swiper-slide__title">DORADA ŚWIEŻA</span>
+										<div class="swiper-slide__price">14,99 ZŁ/KG</div>
+										<a class="btn-view" href="javascript:void(0)">ZAMÓW</a>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide ">
+								<div class="swiper-slide__img-block">	
+									<img src="img/fresh-product_slide1.jpg" alt="product-fish">
+								</div>
+								<div class="swiper-slide__info">
+									<div class="swiper-slide__wrap">
+										<span class="swiper-slide__title">DORADA ŚWIEŻA</span>
+										<div class="swiper-slide__price">14,99 ZŁ/KG</div>
+										<a class="btn-view" href="javascript:void(0)">ZAMÓW</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- Add Arrows -->
+						<div class="swiper-button-next icon-right-arrow"></div>
+						<div class="swiper-button-prev icon-left-arrow"></div>
+					</div>
+				</div>
+				<div class="row container">
+					<a  class="btn-basic" href="javascript:void(0)">ZOBACZ CAŁY<br> ASORTYMENT</a>
+				</div>
+		</section>
+		<!--section-services-->
+		<section class="section-services">
+			<div class="row container block-services">
+				<div class="block-services__item col-xl-4 col-lg-4 col-md-4 no-gutters">
+					<a href="javascript:void(0)" class="block-services__icon icon-pan">
+					</a>
+					<div class="block-services__title">Catering</div>
+					<p class="block-services__text">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie egestas massa, et sollicitudin urna mattis faucibus. Praesent sagittis laoreet est, et efficitur enim lacinia id.
+					</p>
+				</div>
+				<div class="block-services__item col-xl-4 col-lg-4 col-md-4 no-gutters">
+					<a href="javascript:void(0)" class="block-services__icon icon-fish"></a>
+					<div class="block-services__title">SPRZEDAŻ</div>
+					<p class="block-services__text">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie egestas massa, et sollicitudin urna mattis faucibus. Praesent sagittis laoreet est, et efficitur enim lacinia id.
+					</p>
+				</div>
+				<div class="block-services__item col-xl-4 col-lg-4 col-md-4 no-gutters">
+					<a href="javascript:void(0)" class="block-services__icon icon-shrimp"></a>
+					<div class="block-services__title">DOSTAWY</div>
+					<p class="block-services__text">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie egestas massa, et sollicitudin urna mattis faucibus. Praesent sagittis laoreet est, et efficitur enim lacinia id.
+					</p>
+				</div>
+			</div>
+			<div class="row container">
+				<a  class="btn-basic" href="javascript:void(0)">SPRAWDŹ<br>MOŻLIWOŚCI</a>
+			</div>
+		</section>
+		<!--section-contact-->
+		<section class="section-contact">
+			<div class="row no-gutters">
+				<iframe class="col-lg-6 col-xl-6 col-xs-6 col-sm-6" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2568.2528418055313!2d36.25987401585333!3d49.93159683249471!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x41270aceed6529a9%3A0xb409e71d3f4c3944!2z0JwxOCwgMzAyLCDQpdCw0YDRjNC60L7Qsiwg0KXQsNGA0YzQutC-0LLRgdC60LDRjyDQvtCx0LvQsNGB0YLRjCwgNjEwMDA!5e0!3m2!1sru!2sua!4v1521239780040" style="border:0" allowfullscreen></iframe>
+				<div class="container no-gutters">
+					<div class="info-contact col-xs-5 col-sm-5 col-md-5 col-lg-5 col-xl-5 offset-md-1 offset-xl-1 offset-lg-1">
+						<h2 class="info-contact__title">Kontact</h2>
+						<p class="info-contact__text">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie egestas massa, et sollicitudin urna mattis faucibus. Praesent sagittis laoreet est, et efficitur enim lacinia id. Aenean imperdiet diam nec efficitur commodo. Morbi at purus tempus tellus tempus placerat. Sed faucibus sed elit at lacinia.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<!--FOOTER-->
+	<footer class="footer">
+		<div class="row no-gutters footer-top container">
+			<div class="footer-block col-md-6 col-lg-6 col-xl-3">
+				<h4>O nas</h4>
+				<div class="footer-block__m-btn fa fa-plus-square-o"></div>
+				<div class="footer-block__wrap">
+					<a href="javascript:void(0)" class="footer-block__link">O nas</a>
+					<a href="javascript:void(0)" class="footer-block__link">Asortyment</a>
+					<a href="javascript:void(0)" class="footer-block__link">Współpraca</a>
+					<a href="javascript:void(0)" class="footer-block__link">Kontakt</a>
+				</div>
+			</div>
+			<div class="footer-block col-md-6 col-lg-6 col-xl-3">
+				<h4>WSPÓŁPRACA</h4>
+				<div class="footer-block__m-btn fa fa-plus-square-o"></div>
+				<div class="footer-block__wrap">
+					<a href="javascript:void(0)" class="footer-block__link ">Warunki współpracy</a>
+					<a href="javascript:void(0)" class="footer-block__link ">Cennik</a>
+					<a href="javascript:void(0)" class="footer-block__link ">Umowy</a>
+					<a href="javascript:void(0)" class="footer-block__link ">Dostawy</a>
+				</div>
+			</div> 
+			<div class="footer-block col-md-6 col-lg-6 col-xl-3">
+				<h4>GODZINY OTWARCIA</h4>
+				<div class="footer-block__m-btn fa fa-plus-square-o"></div>
+				<div class="footer-block__wrap">
+					<span class="footer-block__info"><strong>Pon. - Wt. 6:00</strong> - 19:00</span>
+					<span class="footer-block__info"><strong>Śr. - Pt.</strong> 6:00 - 18:00</span>
+					<span class="footer-block__info"><strong>Sobota</strong> 6:00 - 16:00</span>
+					<span class="footer-block__info"><strong>Niedziela i święta</strong> 7:00 - 14:00</span>
+				</div>
+			</div>
+			<div class="footer-block col-md-6 col-lg-6 col-xl-3">
+				<h4>KONTAKT</h4>
+				<div class="footer-block__m-btn fa fa-plus-square-o"></div>
+				<div class="footer-block__wrap">
+					<span class="footer-block__info">ul. Upalna 99</span>
+					<span class="footer-block__info">15-600 Białystok</span>
+					<a class="footer-block__link" href="tel:+500110110">tel. <strong>500 110 110</strong></a>
+					<a class="footer-block__link" href="mailto:info@dst.com">e-mail <strong>sklep@swiezeryby.com</strong></a>
+				</div>
+			</div>
+		</div>
+		<div class="footer-bottom">
+			<div class="row no-gutters container">
+				<span class="footer-bottom__copyright">Ⓒ SWIEZERYBY.COM 2016</span>
+				<span class="footer-bottom__text">W GÓRĘ</span>
+			</div>
+		</div>
+	</footer>
+
+	<!--SCRIPT-->
+	<script src="js/libs.min.js"></script>
+	<script src="js/common.js"></script>
+	<script src="js/tether.min.js"></script>
+	<script src="js/bootstrap/bootstrap.js" ></script>
+</body>
+</html>
